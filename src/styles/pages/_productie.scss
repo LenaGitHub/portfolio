@@ -1,0 +1,16 @@
+.productie{
+  .layout,
+  .wrapper{
+    background: #fff;
+  }
+  .slider{
+    background: #f9f9f9;
+  }
+  .info-holder{
+    background: $body-bg;
+    @media(min-width: 768px){
+        padding-top: 22px;
+        padding-bottom:31px;
+    }
+  }
+}

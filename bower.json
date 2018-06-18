@@ -1,0 +1,28 @@
+{
+  "name": "esd",
+  "version": "1.0.1",
+  "authors": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.5",
+    "font-awesome-sass": "~4.4.0",
+    "slick-carousel": "^1.6.0",
+    "jquery-mousewheel": ">=3.0.6",
+    "jquery.stellar": "",
+    "wow": "",
+    "flag-icon-css": ""
+  },
+  "devDependencies": {
+    "jquery-validation": "^1.16.0",
+    "jquery-validation-bootstrap-tooltip": "^0.10.2"
+  }
+}

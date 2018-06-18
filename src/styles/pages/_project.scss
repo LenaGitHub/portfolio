@@ -1,0 +1,50 @@
+.project{
+  .title-holder{
+    padding: 10px 0;
+  }
+  .section-top{}
+  .title{
+    position:relative;
+    height:100%;
+    h1{
+        margin-bottom: 9px;
+    }
+    h2{
+      margin-bottom: 0;
+    }
+    .title-holder{
+      display: inline-block;
+      vertical-align: middle;
+      width:98.6%;
+      @media(max-width:767px){
+        width: 98%;
+      }
+    }
+    .top-left{
+      vertical-align: middle;
+      height:100%;
+      display: inline-block;
+      width:0;
+      letter-spacing: -2px;
+      line-height: 0;
+      font-size: 0;
+    }
+  }
+  .testimonial{
+    .slick-dots{
+        display: none;
+    }
+  }
+  .testimonials-carousel{
+    padding: 33px 29px 41px;
+    @media(min-width:768px){
+      padding: 43px 100px 62px;
+    }
+  }
+  .img-bg,
+  .image-top-paralax{
+    @media(min-width:768px){
+      max-height: 580px;
+    }
+  }
+}

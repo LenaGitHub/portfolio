@@ -1,0 +1,9 @@
+.offerte{
+  .title-holder{
+    h1{
+        @media(max-width:767px){
+            text-align: left;
+        }
+    }
+  }
+}

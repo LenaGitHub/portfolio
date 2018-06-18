@@ -1,0 +1,27 @@
+// Includes font $font-face.
+@mixin font-face ($name, $file-name, $font-weight: 400, $font-style: normal) {
+  @font-face {
+    font-family: $name;
+    src: url('#{$path-fonts}#{$file-name}.eot');
+    src: url('#{$path-fonts}#{$file-name}.eot?#iefix') format('embedded-opentype'),
+         url('#{$path-fonts}#{$file-name}.woff') format('woff'),
+         url('#{$path-fonts}#{$file-name}.ttf') format('truetype'),
+         url('#{$path-fonts}#{$file-name}.svg##{$name}') format('svg');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+
+  %#{$file-name} {
+    font-family: $name;
+  }
+}
+
+%font-awesome {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-size: inherit;
+	line-height: 1;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

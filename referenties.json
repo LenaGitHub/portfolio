@@ -1,0 +1,93 @@
+jsonCallback({
+    "referenties": [
+        {
+            title: 'Woonhuis Rijswijk 2',
+            location: 'Rijswijk',
+            img: 'referenties1.jpg',
+            url: 'news_item.html',
+            type: 'draai deure'
+        },
+        {
+            title: 'Café Bierboetique',
+            location: 'Rotterdam',
+            img: 'referenties2.jpg',
+            url: 'news_item.html',
+            type: 'klap deuren'
+        },
+        {
+            title: 'Woonhuis Centrum',
+            location: 'Rotterdam',
+            img: 'referenties3.jpg',
+            url: 'news_item.html',
+            type: 'draai deure'
+        },
+        {
+            title: 'Woonhuis Rijswijk',
+            location: 'Rijswijk',
+            img: 'referenties4.jpg',
+            url: 'news_item.html',
+            type: 'klap deuren'
+        },
+        {
+            title: 'Woonhuis Westpoort 3',
+            location: 'Amsterdam',
+            img: 'referenties5.jpg',
+            url: 'news_item.html',
+            type: 'klap deuren'
+        },
+        {
+            title: 'Kantoor Chooseday Interior Design',
+            location: 'Delft',
+            img: 'referenties6.jpg',
+            url: 'news_item.html',
+            type: 'draai deure'
+        },
+        {
+            title: 'Woonhuis Venlostraat 4',
+            location: 'Venlo',
+            img: 'referenties7.jpg',
+            url: 'news_item.html',
+            type: 'matglas'
+        },
+        {
+            title: 'Woonhuis Westelijke Eilanden',
+            location: 'Amsterdam',
+            img: 'referenties8.jpg',
+            url: 'news_item.html',
+            type: 'bedrijven'
+        },
+        {
+            title: 'Kantoor Bakerstreet Utrecht',
+            location: 'Utrecht',
+            img: 'referenties9.jpg',
+            url: 'news_item.html',
+            type: 'woningen'
+        },
+        {
+            title: 'Woonhuis Centrum',
+            location: 'Rotterdam',
+            img: 'referenties10.jpg',
+            url: 'news_item.html',
+            type: 'matglas'
+        },
+        {
+            title: 'Kantoor Chooseday Interior Design',
+            location: 'Delft',
+            img: 'referenties11.jpg',
+            url: 'news_item.html',
+            type: 'bedrijven'
+        },
+        {
+            title: 'Woonhuis Rijswijk 2',
+            location: 'Rijswijk',
+            img: 'referenties12.jpg',
+            url: 'news_item.html',
+            type: 'woningen'
+        },
+    ]
+});
+
+
+
+
+

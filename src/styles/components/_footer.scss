@@ -1,0 +1,117 @@
+footer{
+    background: $dark;
+    color: $white;
+    .shell{
+        @media(max-width:1024px){
+            max-width: 964px;
+        }
+    }
+    a{
+        &:focus,
+        &:hover,
+        &:active{
+            text-decoration: underline;
+        }
+    }
+    .footer-top{
+        padding: 40px 0 52px;
+        @media(max-width:600px){
+            padding: 44px 11px 1px;
+        }
+    }
+    .footer-col{
+        p{
+            line-height: 1.63;
+        }
+        .name-footer{
+            color: $pale-teal;
+            margin-bottom: 6px;
+            font-family: $strong-font;
+            @media(max-width:600px){
+                margin-bottom: 3px;
+            }
+        }
+    }
+    .footer-social{
+        margin:-2px -5px 0;
+        @media(max-width:600px){
+            margin-top: 5px;
+        }
+        li{
+            display: inline-block;
+            padding: 0 5px;
+            img{
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+                top: -5px;
+            }
+            a{
+                display: inline-block;
+                &:hover,
+                &:focus,
+                &:active{
+                    opacity: 0.8;
+                    text-decoration: none;
+                }
+                .fa{
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .footer-bottom{
+        padding: 6px 0;
+        background: $dark-blue-grey;
+        @media(max-width:600px){
+            padding: 41px 11px;
+        }
+    }
+}
+.footer-nav-bottom{
+    margin:0 -6px 0 -11px;
+    @media(max-width:600px){
+        margin: 0;
+    }
+    li{
+        display: inline-block;
+        position:relative;
+        padding: 0 6px 0 11px;
+        line-height: 1;
+        @media(max-width:600px){
+            padding:0;
+            display: block;
+            margin-bottom:12px;
+        }
+        &:before{
+            content:'';
+            position: absolute;
+            background: $white;
+            height:12px;
+            width:1px;
+            top:1px;
+            left:0;
+            @media(max-width:600px){
+                content: none;
+            }
+        }
+        &:first-child{
+            &:before{
+                content: none;
+            }
+        }
+    }
+}
+.copyright{
+    text-align: right;
+    margin-right: 24px;
+    @media(max-width:600px){
+        text-align: left;
+        margin-top: 40px;
+    }
+}
+.footer-col{
+    @media(max-width:600px){
+        margin-bottom: 22px;
+    }
+}

@@ -1,0 +1,67 @@
+//Path
+
+$path-fonts: '../fonts/';
+$path-img: 'images/';
+
+//Fonts
+// $chaletLondon: 'chaletlondonnineteensixty', sans-serif;
+// $chaletNewyork: 'chaletnewyorknineteensixty', sans-serif;
+// $title-font: 'chaletnewyorknineteensixty', sans-serif;
+
+$material-icons: 'Material Icons';
+$proxima_novaA: 'proxima_nova_aregular', sans-serif;
+$proxima_novaBold: 'proxima_novabold', sans-serif;
+
+
+//Colors
+$light-gold: #ffe558;
+$sunflower-yellow: #ffde00;
+$pale-teal: #78c0b6;
+$dark: #292647;
+$white: #ffffff;
+$white-two: #f9f9f9;
+$white-three: #f2f2f2;
+$cool-grey: #b4b3bb;
+$bluegrey: #89b5af;
+$blue-grey-two: #5b7f7a;
+$dark-blue-grey: #120f33;
+$wheat: #FBE989;
+$greyish-teal: #698f8a;
+$wheat-two: #fbe988;
+$dark-two: #18162e;
+$dark-two: #18162e;
+$blue-two: #36316e;
+$pale-grey: #e0dfe4;
+$paua: #292747;
+
+$input-border: #d4d4d4;
+$input-placeholder: #d5d5d5;
+$input-focus: $dark;
+$input-valid: $bluegrey;
+
+
+//Default settings
+$default-font: $proxima_novaA;
+$strong-font: $proxima_novaBold;
+
+$default-font-size: 16px;
+$default-line-height: 1.75;
+$default-font-weight: 400;
+$default-font-style: normal;
+$default-text-color: $dark;
+$body-bg: $white-two;
+$font-size-name: 28px;
+$line-height-name: 1.43;
+$brand-color: $dark;
+// $subcolor: #3bc2ff;
+
+
+
+$md-max: 'screen and (max-width: #{$screen-lg - 1})';
+$md-min: 'screen and (min-width: #{$screen-md})';
+$sm-max: 'screen and (max-width: #{$screen-md - 1})';
+$sm-min: 'screen and (min-width: #{$screen-sm})';
+$xs-max: 'screen and (max-width: #{$screen-sm - 1})';
+$xs-min: 'screen and (min-width: #{$screen-xs})';
+$xm-max: 'screen and (max-width: 479px)';
+$xm-min: 'screen and (min-width: 480px)';

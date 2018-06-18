@@ -1,0 +1,27 @@
+.contact{
+  .img-bg{
+    max-height: 577px;
+    @media(max-width:767px){
+      max-height: 472px;
+    }
+  }
+  .info-text{
+    &,
+    p{
+      color: $dark;
+    }
+  }
+  .info-holder{
+    @media(min-width: 768px){
+      padding-bottom: 37px;
+    }
+    @media(max-width: 767px){
+      padding-bottom: 17px;
+    }
+  }
+  .info-name{
+    @media(max-width:767px){
+      color: $dark;
+    }
+  }
+}

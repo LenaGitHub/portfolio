@@ -1,0 +1,40 @@
+//bower
+@import '../vendor/bootstrap-sass/assets/stylesheets/bootstrap';
+@import '../vendor/font-awesome-sass/assets/stylesheets/font-awesome';
+
+@import 'var/variables';
+@import 'var/mixins';
+@import 'components/fonts';
+@import 'components/reset';
+@import 'components/default';
+
+//elements
+@import 'elements/animate';
+@import 'elements/animations';
+@import 'elements/material-icons';
+@import 'elements/titles';
+@import 'elements/buttons';
+@import 'elements/loader';
+
+//components
+@import 'components/video';
+@import 'components/slick';
+@import 'components/slick-theme';
+@import 'components/navbar-fixed';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/quote';
+@import 'components/form';
+@import 'components/main';
+
+//pages
+@import 'pages/home';
+@import 'pages/productie';
+@import 'pages/project';
+@import 'pages/over';
+@import 'pages/news-item';
+@import 'pages/news';
+@import 'pages/offerte';
+@import 'pages/contact';
+@import 'pages/referenties';
+

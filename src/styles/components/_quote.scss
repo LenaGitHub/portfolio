@@ -1,0 +1,42 @@
+.quote{
+  background: $white-two;
+  padding: 53px 0 49px;
+  @media(max-width:767px){
+    padding: 55px 13px 45px;
+  }
+  @media(max-width: 600px){
+    padding-top: 53px;
+  }
+  p{
+    line-height: 26px;
+  }
+  .shell{
+    @media(max-width:1024px){
+      max-width: 964px;
+    }
+  }
+}
+.quote-name{
+  font-family: $strong-font;
+  font-size: 28px;
+  line-height: 1.43;
+  text-align: left;
+  color: $dark;
+  margin-bottom: 17px;
+}
+.quote-btn{
+  margin-top: 23px;
+  @media(max-width:600px){
+    margin-top: 29px;
+  }
+  .btn{
+    font-family: $strong-font;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    @media (max-width:600px){
+      width:100%;
+      padding: 12px 10px 9px;
+    }
+  }
+}

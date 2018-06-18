@@ -1,0 +1,67 @@
+<div class="how-it-works  wow slideInUp">
+    <div class="container">
+        <div class="how-it-works-inner">
+            <div class="how-it-works-inside">
+                <div class="row">
+                    <div class="col-mb-12 col-xs-5 col-sm-6">
+                        <div class="how-it-works-head">
+                            <h5 class="how-it-works-name">Productie & montage</h5>
+                        </div>
+                    </div>
+                    <div class="col-mb-12 col-xs-7 col-sm-6">
+                        <div class="how-it-works-info">
+                            <p class="how-it-works-text">GewoonGers heeft de gehele productie van schets tot realisatie in huis. Wij hebben het totaal proces geoptimaliseerd, waarbij flexibiliteit en korte levertijden de belangrijkste centraal staan.</p>
+                            <div class="how-it-works-btn">
+                                <a href="" class="btn btn-yellow">meer over productie proces</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-it-works-video-shell">
+                <div class="how-it-works-video video_notplaying">
+                    <!-- <img src="static/images/video.jpg"> -->
+                    <div class="video_top" id="play-button">
+                        <div class="video-start-top">
+                            <div class="video-button video-button-animated">
+                                <div class="img">
+                                    <img src="static/images/combined-shape.svg" class="Combined-Shape">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    // Video
+    var player;
+    function onYouTubePlayerAPIReady() {
+      player = new YT.Player('player', {
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+    function onPlayerReady(event) {
+      var playButton = document.getElementById("play-button");
+      playButton.addEventListener("click", function() {
+        player.playVideo();
+        $('.how-it-works-video').removeClass('video_notplaying');
+      });
+      
+    }
+    function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.ENDED) {
+            $('.how-it-works-video').addClass('video_notplaying');
+        }
+        if (event.target.getPlayerState() == YT.PlayerState.PLAYING) {
+            $('.how-it-works-video').removeClass('video_notplaying');
+        }
+    }
+</script>
